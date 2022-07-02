@@ -30,6 +30,7 @@ public class TestProperties {
 
     @PostConstruct
     public void init(){
+        System.out.println("post construct: " + text);
     }
 
 }
